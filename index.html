@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <div><img src="images/logo_1.png" alt="HNG" ></div>
+            <div><img src="images/logo_2.png" alt="i4g" ></div>
+            <div><img src="images/logo_3.png" alt="zuri" ></div>
+        </div>
+    </header>
+
+
+    <h1 id="title">
+        ZURI SUMMER VOLUNTEERS APPLICATION FORM
+    </h1>
+    <p id="description">Do you want to join Our All-star team this summer? <br> Please fill in your details
+            below.</p>
+    <form id="resume-form">
+        <div class="form-control">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-control">
+            <label for="Email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="form-control">
+            <label for="position" id="position">Position Applying For</label>
+            <input type="text" id="position" required />
+        </div>
+
+
+        <div class="form-control">
+            <label for="comments">Additional Information</label>
+            <textarea name="more info" id="info" placeholder="Enter more information here"></textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="myfile">Upload your Resume:</label>
+            <input type="file" id="myfile" name="myfile">
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <footer>
+        <a href="https://zuri.team">Go to Zuri Homepage</a>
+    </footer>
+
+</body>
+
+</html>
